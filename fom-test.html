@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>   
 <head>
-       <form action="https://business.form-mailer.jp/fm/service/Forms/confirm" method="post" name="form1" ENCTYPE="multipart/form-data" accept-charset="UTF-8">
-      <input type="hidden" name="key" value="48e0310b189470">
-      <h1>フォーム</h1>
+          <form action="https://business.form-mailer.jp/fm/service/Forms/confirm" method="post" name="form1" ENCTYPE="multipart/form-data" accept-charset="UTF-8">
+      <input type="hidden" name="key" value="2e477a89347016">
 
       *は必須項目です
 
 
       <!-- name -->
       <p>
-        *名前
+        名前
       </p>
       <p>
-        姓 <input name="field_3219412_sei" type="text" placeholder="">
-        名 <input name="field_3219412_mei" type="text" placeholder="">
+        姓 <input name="field_5938512_sei" type="text" placeholder="姓">
+        名 <input name="field_5938512_mei" type="text" placeholder="名">
       </p>
 
       <!-- email -->
@@ -22,28 +21,73 @@
         メールアドレス
       </p>
       <p>
-        <input name="field_3219413" type="text" size="30" placeholder="">
-      </p>
-
-      <!-- phone -->
-      <p>
-        連絡先
-      </p>
-      <p>
-        <input name="field_3219417_1" type="text" maxlength="4" placeholder="">-
-        <input name="field_3219417_2" type="text" maxlength="4" placeholder="">-
-        <input name="field_3219417_3" type="text" maxlength="4" placeholder="">
+        <input name="field_5938513" type="text" size="30" placeholder="info@example.com">
       </p>
 
       <!-- radio -->
       <p>
-        ラジオボタン
+        性別
       </p>
       <p>
-        <input name="field_3524137" type="radio" value="0" >問い合わせ
-        <input name="field_3524137" type="radio" value="1" >資料請求
-        <input name="field_3524137" type="radio" value="2" >個別相談
-        <input name="field_3524137" type="radio" value="3" >トライアル申し込み
+        <input name="field_5938514" type="radio" value="0" >男性
+        <input name="field_5938514" type="radio" value="1" >女性
+      </p>
+
+      <!-- birth date -->
+      <p>
+        生年月日
+      </p>
+      <p>
+        <input name="field_5938515_y" type="text" maxlength="4">年
+        <select name="field_5938515_m">
+          <option value="">--</option>
+          <option value="01">1</option>
+          <option value="02">2</option>
+          <option value="03">3</option>
+          <option value="04">4</option>
+          <option value="05">5</option>
+          <option value="06">6</option>
+          <option value="07">7</option>
+          <option value="08">8</option>
+          <option value="09">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>月
+        <select name="field_5938515_d">
+          <option value="">--</option>
+          <option value="01">1</option>
+          <option value="02">2</option>
+          <option value="03">3</option>
+          <option value="04">4</option>
+          <option value="05">5</option>
+          <option value="06">6</option>
+          <option value="07">7</option>
+          <option value="08">8</option>
+          <option value="09">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>日
       </p>
 
       <!-- address -->
@@ -51,9 +95,9 @@
         住所
       </p>
       <p>
-        〒<input name="field_3327345_zip1" type="text" maxlength="3">-<input name="field_3327345_zip2" type="text" maxlength="4"><br>
+        〒<input name="field_5938516_zip" type="text" maxlength="7"><br>
         都道府県<br>
-        <select name="field_3327345_pref">
+        <select name="field_5938516_pref">
           <option value="">----</option>
           <option value="北海道">北海道</option>
           <option value="青森県">青森県</option>
@@ -105,11 +149,135 @@
           <option value="その他">その他</option>
         </select><br>
         市区町村<br>
-        <input name="field_3327345_city" type="text"><br>
+        <input name="field_5938516_city" type="text"><br>
         番地<br>
-        <input name="field_3327345_block" type="text"><br>
+        <input name="field_5938516_block" type="text"><br>
         マンション・ビル名<br>
-        <input name="field_3327345_building" type="text">
+        <input name="field_5938516_building" type="text">
+      </p>
+
+      <!-- phone -->
+      <p>
+        電話番号
+      </p>
+      <p>
+        <input name="field_5938517" type="text" placeholder="090-0000-0000">
+      </p>
+
+      <!-- radio -->
+      <p>
+        *単一選択
+      </p>
+      <p>
+        <input name="field_5938518" type="radio" value="0" >選択肢1
+        <input name="field_5938518" type="radio" value="1" >選択肢2
+        <input name="field_5938518" type="radio" value="2" >選択肢3
+        <input name="field_5938518" type="radio" value="3" >選択肢4
+        <input name="field_5938518" type="radio" value="4" >選択5
+      </p>
+
+      <!-- text -->
+      <p>
+        一行テキスト
+      </p>
+      <p>
+        <input name="field_5938519" type="text" value="" size="30"   >
+      </p>
+
+      <!-- text -->
+      <p>
+        一行テキスト_copy
+      </p>
+      <p>
+        <input name="field_6014340" type="text" value="" size="30"   >
+      </p>
+
+      <!-- text -->
+      <p>
+        一行テキスト_copy_copy
+      </p>
+      <p>
+        <input name="field_6014348" type="text" value="" size="30"   >
+      </p>
+
+      <!-- checkbox -->
+      <p>
+        *複数選択
+      </p>
+      <p>
+        <input name="field_5938549" type="checkbox" value="0" >選択肢1
+        <input name="field_5938549" type="checkbox" value="1" >選択肢2
+      </p>
+
+      <!-- url -->
+      <p>
+        URL
+      </p>
+      <p>
+        <input name="field_5953654" type="url" value="" placeholder="https://example.com" maxlength="5000" >
+      </p>
+
+      <!-- label -->
+      <p>
+        テキストが入ります
+      </p>
+
+      <!-- dropdown -->
+      <p>
+        都道府県
+      </p>
+      <p>
+        <select name="field_5968298">
+          <option value="">------</option>
+          <option value="0" >北海道</option>
+          <option value="1" >青森県</option>
+          <option value="2" >岩手県</option>
+          <option value="3" >宮城県</option>
+          <option value="4" >秋田県</option>
+          <option value="5" >山形県</option>
+          <option value="6" >福島県</option>
+          <option value="7" >茨城県</option>
+          <option value="8" >栃木県</option>
+          <option value="9" >群馬県</option>
+          <option value="10" >埼玉県</option>
+          <option value="11" >千葉県</option>
+          <option value="12" >東京都</option>
+          <option value="13" >神奈川県</option>
+          <option value="14" >新潟県</option>
+          <option value="15" >富山県</option>
+          <option value="16" >石川県</option>
+          <option value="17" >福井県</option>
+          <option value="18" >山梨県</option>
+          <option value="19" >長野県</option>
+          <option value="20" >岐阜県</option>
+          <option value="21" >静岡県</option>
+          <option value="22" >愛知県</option>
+          <option value="23" >三重県</option>
+          <option value="24" >滋賀県</option>
+          <option value="25" >京都府</option>
+          <option value="26" >大阪府</option>
+          <option value="27" >兵庫県</option>
+          <option value="28" >奈良県</option>
+          <option value="29" >和歌山県</option>
+          <option value="30" >鳥取県</option>
+          <option value="31" >島根県</option>
+          <option value="32" >岡山県</option>
+          <option value="33" >広島県</option>
+          <option value="34" >山口県</option>
+          <option value="35" >徳島県</option>
+          <option value="36" >香川県</option>
+          <option value="37" >愛媛県</option>
+          <option value="38" >高知県</option>
+          <option value="39" >福岡県</option>
+          <option value="40" >佐賀県</option>
+          <option value="41" >長崎県</option>
+          <option value="42" >熊本県</option>
+          <option value="43" >大分県</option>
+          <option value="44" >宮崎県</option>
+          <option value="45" >鹿児島県</option>
+          <option value="46" >沖縄県</option>
+          <option value="47" >その他</option>
+        </select>
       </p>
 
       <!-- calendar date -->
@@ -117,15 +285,7 @@
         日付
       </p>
       <p>
-      <input name="field_3302530" type="date" value=""    pattern="\d{4}-\d{2}-\d{2}">
-      </p>
-
-      <!-- textarea -->
-      <p>
-        お問い合わせ内容
-      </p>
-      <p>
-        <textarea name="field_3224259" cols="30" rows="5"  placeholder="" ></textarea>
+      <input name="field_6023059" type="date" value=""    pattern="\d{4}-\d{2}-\d{2}">
       </p>
 
 
@@ -137,7 +297,7 @@
 
       <input type="hidden" name="code" value="utf8">
     </form>
-    
+
 
     </head>
     </html>
